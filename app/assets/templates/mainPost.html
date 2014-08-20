@@ -1,0 +1,51 @@
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+    <nav class="tab-bar">
+      <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+      </section>
+
+      <section class="middle tab-bar-section">
+        <h1 class="title">Post Index</h1>
+      </section>
+
+      <section class="right-small">
+        <a class="right-off-canvas-toggle graph-icon" href="#"><span></span></a>
+      </section>
+    </nav>
+
+    <aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><a href="#">MENU ITEM 1</a></li>
+        <li><a href="#">MENU ITEM 2</a></li>
+      </ul>
+    </aside>
+
+    <aside class="right-off-canvas-menu">
+      <ul class="off-canvas-list">
+        <li><label>LEADERBOARD</label></li>
+        <li><a href="#">USER1</a></li>
+        <li><a href="#">USER2</a></li>
+      </ul>
+    </aside>
+
+    <section class="main-section">
+
+      <div class="container" style="margin-top: 40px">
+        <h1 class="text-center">{{data.currentPost.title}}</h1>
+        <div class="row">
+          <p>{{data.currentPost.contents}}</p>
+        </div>
+        <div class="row">
+          <button class="btn btn-default" ng-click="editPost()">Edit</button>
+        </div>
+      </div>
+
+      <li><a ng-click="navNewPost()">New Post</a></li>
+    </section>
+
+  <a class="exit-off-canvas"></a>
+
+  </div>
+</div>
+
