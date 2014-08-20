@@ -14,3 +14,4 @@
 //= require jquery_ujs
 //= require underscore
 //= require angular
+//= require mm-foundation-tpls-0.3.1
